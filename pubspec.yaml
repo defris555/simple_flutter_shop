@@ -1,0 +1,39 @@
+name: test_catalog
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  get: ^4.1.4
+  get_storage: ^2.0.2
+  google_fonts: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/svg/back.svg
+    - assets/svg/bag.svg
+    - assets/svg/checkbox.svg
+    - assets/svg/checkbox_all.svg
+    - assets/svg/dot.svg
+    - assets/svg/dropdown.svg
+    - assets/svg/filter.svg
+    - assets/svg/heart.svg
+    - assets/svg/home.svg
+    - assets/svg/profile.svg
+    - assets/svg/search.svg
+    - assets/svg/trash.svg
